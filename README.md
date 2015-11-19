@@ -1,4 +1,4 @@
-# OSA Maven Configuration module
+# OSA Nw Design Runtime Root Module
 
 ## What's OSA?
 
