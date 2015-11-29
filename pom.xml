@@ -29,15 +29,11 @@
   <packaging>pom</packaging>
   
   <name>OSA Common definitions for the newdes runtime</name>
+
   
-  <dependencyManagement>
-  	<dependencies>
-  		<dependency>
-			<groupId>org.osadev.simapis</groupId>
-			<artifactId>osa-simapis-newdes</artifactId>
-			<version>0.8.0-SNAPSHOT</version>
-		</dependency>
-  	</dependencies>
-  </dependencyManagement>
+  <modules>
+  		<module>../ooo.runtime.newdes.logger</module>
+    	<module>../ooo.runtime.newdes.launcher.event</module>
+  </modules>
   
 </project>
